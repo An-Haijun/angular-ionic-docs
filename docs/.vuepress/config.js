@@ -1,8 +1,8 @@
 module.exports = {
-    base: '/js-advanced/',
+    base: '/ionic-angular/',
     dest: 'dist',
-    title: 'JS 高级程序设计',
-    description: 'JavaScript 高级程序设计总结文档',
+    title: 'Ionic Angular 开发配置及问题解决总结文档',
+    description: 'Ionic Angular 开发配置及问题解决总结文档',
     head: [
         ['link', {
             rel: 'icon',
@@ -45,37 +45,25 @@ module.exports = {
     serviceWorker: false,
     themeConfig: {
         // 自动在导航栏右侧添加，github链接跳转按钮，此为路径
-        repo: 'An-Haijun/js-advanced',
+        repo: 'An-Haijun/ionic-angular',
         editLinks: true,
         docsDir: 'docs',
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: '上次更新',
         nav: [{
             text: '我的博客',
-            link: 'http://anhaijun.info'
+            link: 'https://www.anhaijun.info'
         }, {
             text: 'VuePress',
             link: 'https://vuepress.vuejs.org/zh/guide/'
         }],
         // 左侧菜单栏
         sidebar: [{
-            title: '第 1 章 JavaScript 简介',
+            title: 'Ionic、Angular开发环境配置',
             collapsable: false,
             children: [
-                ['javascript-profile/', 'Introduction'],
-                'javascript-profile/brief-history'
-            ]
-        }, {
-            title: '第 8 章 BOM',
-            collapsable: false,
-            children: [
-                ['bom/', 'Introduction'],
-                'bom/window',
-                'bom/location',
-                'bom/navigator',
-                'bom/screen',
-                'bom/history',
-                'bom/summarizes.md'
+                ['src/basic/', 'Introduction'],
+                'src/basic/setting'
             ]
         }]
     }
