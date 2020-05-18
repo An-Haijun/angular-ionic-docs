@@ -59,11 +59,18 @@ module.exports = {
         }],
         // 左侧菜单栏
         sidebar: [{
-            title: '第 1 章 JavaScript 简介',
+            title: '基础环境配置',
             collapsable: false,
             children: [
-                ['src/', 'Introduction'],
-                'src/basic/setting'
+                ['basic/', '说明'],
+                'basic/setting'
+            ]
+        }, {
+            title: '开发问题解决与总结',
+            collapsable: false,
+            children: [
+                ['problem/', '说明'],
+                'problem/full-screen-back'
             ]
         }]
     }
