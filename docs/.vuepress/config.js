@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/ionic-angular/',
+    base: '/angular-ionic-docs/',
     dest: 'dist',
     title: 'Ionic Angular 开发文档',
     description: 'Ionic Angular 开发文档',
@@ -45,7 +45,7 @@ module.exports = {
     serviceWorker: false,
     themeConfig: {
         // 自动在导航栏右侧添加，github链接跳转按钮，此为路径
-        repo: 'An-Haijun/ionic-angular',
+        repo: 'An-Haijun/angular-ionic-docs',
         editLinks: true,
         docsDir: 'docs',
         editLinkText: '在 GitHub 上编辑此页',

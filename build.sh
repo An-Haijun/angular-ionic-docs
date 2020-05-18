@@ -3,6 +3,8 @@
 # set -e
 # npm run build
 
+yarn build
+
 cd dist
 
 git init
