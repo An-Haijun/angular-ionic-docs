@@ -4,3 +4,4 @@
 
 - <a href="./full-screen-back.html">Ionic 原生侧边滑动返回会导致Tabs页面右侧溢出 Root 背景</a>
 - <a href="./android/keyboard-shade-input.html">Android 软键盘弹出遮挡输入框</a>
+- <a href="#">屏蔽 Ios 系统橡皮筋效果</a>
