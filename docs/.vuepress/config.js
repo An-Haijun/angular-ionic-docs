@@ -65,6 +65,6 @@ module.exports = {
                 ['src/', 'Introduction'],
                 'src/basic/setting'
             ]
-        }
+        }]
     }
 }
