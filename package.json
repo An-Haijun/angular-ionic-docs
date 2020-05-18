@@ -1,0 +1,12 @@
+{
+  "name": "ionic-angular",
+  "version": "1.0.0",
+  "description": "docs",
+  "main": "index.js",
+  "repository": "https://github.com/An-Haijun/ionic-angular.git",
+  "author": "ahj <740055963@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
