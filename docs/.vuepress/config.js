@@ -59,18 +59,20 @@ module.exports = {
         }],
         // 左侧菜单栏
         sidebar: [{
-            title: '基础环境配置',
+            title: '基础',
             collapsable: false,
             children: [
                 ['basic/', '说明'],
                 'basic/setting'
             ]
         }, {
-            title: '开发问题解决与总结',
+            title: '总结',
             collapsable: false,
             children: [
                 ['problem/', '说明'],
-                'problem/full-screen-back'
+                'problem/full-screen-back',
+                'problem/android/keyboard-shade-input',
+                'problem/android/gradle-download'
             ]
         }]
     }
