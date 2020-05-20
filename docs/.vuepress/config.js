@@ -73,7 +73,7 @@ module.exports = {
                 'problem/full-screen-back',
                 'problem/button-hover',
                 'problem/android/keyboard-shade-input',
-                'problem/android/gradle-download'.
+                'problem/android/gradle-download'
             ]
         }]
     }
