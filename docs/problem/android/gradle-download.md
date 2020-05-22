@@ -65,21 +65,18 @@ allprojects {
 ```sehll
     buildscript {
         repositories {
-            jcenter()
             maven { url "https://maven.google.com" }
-            maven { url "https://jitpack.io" }
-            maven { url "https://adcolony.bintray.com/AdColony" }
-            maven { url "https://dl.bintray.com/ironsource-mobile/android-sdk" }
+            maven{ url'http://maven.aliyun.com/nexus/content/groups/public/'}
+            jcenter()
             google()
         }
     }
     allprojects {
         repositories {
-            jcenter()
             maven { url "https://maven.google.com" }
-            maven { url "https://jitpack.io" }
-            maven { url "https://adcolony.bintray.com/AdColony" }
-            maven { url "https://dl.bintray.com/ironsource-mobile/android-sdk" }
+            maven{ url'http://maven.aliyun.com/nexus/content/groups/public/'}
+            jcenter()
+            mavenCentral()
             google()
         }
     }
