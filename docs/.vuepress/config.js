@@ -93,7 +93,8 @@ module.exports = {
       children: [
         ['blockchain/', '说明'],
         'blockchain/ethereum',
-        'blockchain/uniswap'
+        'blockchain/uniswap',
+        'blockchain/create-wallet'
       ]
     }]
   },
