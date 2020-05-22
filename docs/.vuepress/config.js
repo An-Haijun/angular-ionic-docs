@@ -65,14 +65,21 @@ module.exports = {
     // 左侧菜单栏
     sidebar: [{
       title: '准备',
-      collapsable: false,
+      collapsable: true,
       children: [
         ['basic/', '说明'],
         'basic/setting'
       ]
     }, {
+      title: '开发',
+      collapsable: true,
+      children: [
+        ['develop/', '说明'],
+        'develop/alipush'
+      ]
+    }, {
       title: '总结',
-      collapsable: false,
+      collapsable: true,
       children: [
         ['problem/', '说明'],
         'problem/full-screen-back',
@@ -82,7 +89,7 @@ module.exports = {
       ]
     }, {
       title: '区块链',
-      collapsable: false,
+      collapsable: true,
       children: [
         ['blockchain/', '说明'],
         'blockchain/ethereum',
