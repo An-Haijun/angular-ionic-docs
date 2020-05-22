@@ -3,7 +3,7 @@
 # set -e
 # npm run build
 
-yarn build
+# yarn build
 
 cd dist
 
