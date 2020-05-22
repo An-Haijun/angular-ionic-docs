@@ -15,9 +15,13 @@
   2、lightWallet 提供 lightwallet.keystore和lightwallet.txutils 两个主模块；
   3、LightWallet主要用于通过keystore模块为 Hooked Web3 provider提供签名。这允许您完全控制私钥，同时仍然连接到远程节点以中继已签名的事务。此外，txutils函数可以用于在脱机时构造交易。
 
+  参考：[lightwallet](https://www.cnblogs.com/wanghui-garcia/p/10001639.html)
+
 - keythereum.js
 
   Keythereum是一个用于生成，导入和导出Ethereum键的JavaScript工具。 这提供了一个简单的方法来在本地和网络钱包中使用相同的帐户。 它可以用于可以验证的冷存储钱包。
+
+  参考：[keythereum](https://www.kutu66.com/GitHub/article_127865)
 
 - 以太坊官网
 
