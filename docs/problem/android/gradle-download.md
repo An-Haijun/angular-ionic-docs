@@ -60,9 +60,32 @@ allprojects {
 }
 ```
 
-## 方案三（最终方案）
+## 方案三
 
-  注释掉报错对应的包
+```sehll
+    buildscript {
+        repositories {
+            mavenCentral()
+            mavenLocal()
+            google()
+            jcenter()
+        }
+    }
+    allprojects {
+        repositories {
+            jcenter()
+            maven { url "https://maven.google.com" }
+            maven { url "https://jitpack.io" }
+            maven { url "https://adcolony.bintray.com/AdColony" }
+            maven { url "https://dl.bintray.com/ironsource-mobile/android-sdk" }
+            google()
+        }
+    }
+```
+
+## 方案四
+
+  注释掉报错对应的包，主要针对下载失败：om.android.support:support-v4:24.1.1+
 
 ```shell
     target=android-28
