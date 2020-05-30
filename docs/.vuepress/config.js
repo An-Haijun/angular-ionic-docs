@@ -69,7 +69,7 @@ module.exports = {
       children: [
         ['basic/', '说明'],
         'basic/setting',
-        'basic/directory-structure.md'
+        'basic/directory-structure'
       ]
     }, {
       title: '开发',
