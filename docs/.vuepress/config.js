@@ -68,14 +68,15 @@ module.exports = {
       collapsable: true,
       children: [
         ['basic/', '说明'],
-        'basic/setting'
+        'basic/setting',
+        'basic/directory-structure.md'
       ]
     }, {
       title: '开发',
       collapsable: true,
       children: [
         ['develop/', '说明'],
-        'develop/alipush'
+        'develop/alipush',
       ]
     }, {
       title: '总结',
@@ -97,9 +98,5 @@ module.exports = {
         'blockchain/create-wallet'
       ]
     }]
-  },
-  extraWatchFiles: [
-    '.vuepress/config.js', // 使用相对路径
-    '**/*.md'   // 使用绝对路径
-  ]
+  }
 }
